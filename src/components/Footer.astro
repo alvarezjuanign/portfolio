@@ -1,9 +1,40 @@
 ---
-
+const currentYear = new Date().getFullYear()
+import GithubIcon from '../assets/icons/github.svg'
+import LinkedInIcon from '../assets/icons/linkedin.svg'
+import CVIcon from '../assets/icons/download.svg'
 ---
 
-<footer>
-  <p class='text-center text-sm text-gray-500 py-4'>
-    &copy; {new Date().getFullYear()} Juan Ignacio Alvarez. Todos los derechos reservados.
-  </p>
+<footer
+  class='bg-white border-t border-gray-100 mt-6 flex gap-3.5 justify-between items-center p-4'
+>
+  <div class='flex space-x-4'>
+    <a
+      href='https://github.com/alvarezjuanign'
+      class='text-[#8b8c89] hover:text-[#6096ba] transition-colors duration-300'
+      aria-label='GitHub'
+      target='_blank'
+    >
+      <GithubIcon class='h-6' />
+    </a>
+    <a
+      href='https://www.linkedin.com/in/juanigz/'
+      class='pointer text-[#8b8c89] hover:text-[#6096ba] transition-colors duration-300'
+      aria-label='LinkedIn'
+      target='_blank'
+    >
+      <LinkedInIcon class='h-6' />
+    </a>
+    <a
+      href='../../public/docs/Juan Ignacio Alvarez.pdf'
+      target='_blank'
+      class='text-[#8b8c89] hover:text-[#6096ba] transition-colors duration-300'
+      aria-label='Cv'
+    >
+      <CVIcon class='h-6' />
+    </a>
+  </div>
+  <div class='text-center'>
+    <p class='text-gray-500 text-sm'>&copy; {currentYear} Alvarez Juan</p>
+  </div>
 </footer>
