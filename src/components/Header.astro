@@ -8,7 +8,7 @@ import CVIcon from '../assets/icons/download.svg'
 ---
 
 <article class='w-full flex flex-col items-center' id='container'>
-  <main class='flex flex-col justify-start w-full p-10'>
+  <main class='flex flex-col justify-start w-full px-5 py-10'>
     <section id='hero' class='flex items-center gap-3'>
       <img
         src={fotoJuanIgnacio.src}
@@ -17,13 +17,27 @@ import CVIcon from '../assets/icons/download.svg'
       />
       <p><b>Juan Ignacio Alvarez</b></p>
       <ul id='links' class='flex'>
-        <a href='https://www.linkedin.com/in/juanigz/' target='_blank'>
+        <a
+          href='https://www.linkedin.com/in/juanigz/'
+          class='text-[#8b8c89] hover:text-[#6096ba] transition-colors duration-300'
+          target='_blank'
+        >
           <LinkedInIcon />
         </a>
-        <a href='https://github.com/alvarezjuanign' target='_blank'>
+        <a
+          href='https://github.com/alvarezjuanign'
+          class='text-[#8b8c89] hover:text-[#6096ba] transition-colors duration-300'
+          target='_blank'
+        >
           <GithubIcon />
         </a>
-        <a href={CV} target='_blank'><CVIcon /></a>
+        <a
+          href={CV}
+          class='text-[#8b8c89] hover:text-[#6096ba] transition-colors duration-300'
+          target='_blank'
+        >
+          <CVIcon />
+        </a>
       </ul>
     </section>
   </main>
