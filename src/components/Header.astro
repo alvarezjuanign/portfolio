@@ -8,35 +8,40 @@ import CVIcon from '../assets/icons/download.svg'
 ---
 
 <article class='w-full flex flex-col items-center' id='container'>
-  <main class='flex flex-col justify-start w-full px-5 py-10'>
-    <section id='hero' class='flex items-center gap-3'>
-      <img
-        src={fotoJuanIgnacio.src}
-        alt='Foto Juan Ignacio Alvarez'
-        class='rounded-full w-11 h-11 object-cover'
-      />
-      <p class='font-bold text-[#EB5E28]'>Juan Ignacio Alvarez</p>
+  <main class='flex flex-col justify-start w-full px-5 py-10 md:px-20 xl:px-60'>
+    <section
+      id='hero'
+      class='flex items-center gap-3 md:w-full md:justify-between'
+    >
+      <div class='flex items-center gap-3'>
+        <img
+          src={fotoJuanIgnacio.src}
+          alt='Foto Juan Ignacio Alvarez'
+          class='rounded-full w-12 h-12 md:w-20 md:h-20 object-cover'
+        />
+        <p class='font-bold text-[#252422]'>Juan Ignacio Alvarez</p>
+      </div>
       <ul id='links' class='flex gap-2.5'>
         <a
           href='https://www.linkedin.com/in/juanigz/'
           class='text-[#252422] hover:text-[#EB5E28] hover:scale-110 transition-colors duration-300'
           target='_blank'
         >
-          <LinkedInIcon />
+          <LinkedInIcon class='w-6 h-6 md:w-8 md:h-8' />
         </a>
         <a
           href='https://github.com/alvarezjuanign'
           class='text-[#252422] hover:text-[#EB5E28] hover:scale-110 transition-colors duration-300'
           target='_blank'
         >
-          <GithubIcon />
+          <GithubIcon class='w-6 h-6 md:w-8 md:h-8' />
         </a>
         <a
           href={CV}
           class='text-[#252422] hover:text-[#EB5E28] hover:scale-110 transition-colors duration-300'
           target='_blank'
         >
-          <CVIcon />
+          <CVIcon class='w-6 h-6 md:w-8 md:h-8' />
         </a>
       </ul>
     </section>
