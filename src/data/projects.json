@@ -1,0 +1,68 @@
+[
+  {
+    "id": "arboleda",
+    "title": "La Arboleda",
+    "description": "Landing page para cabañas en San Luis, implementación de viewTransitions.",
+    "image": "/projects/arboleda.png",
+    "alt": "Foto de la landing page de cabañas La Arboleda en San Luis",
+    "url": "https://laarboleda.vercel.app/",
+    "technologies": [
+      {
+        "name": "Astro",
+        "icon": "/assets/skills/astro.svg"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "/assets/skills/tailwind.svg"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "licencias",
+    "title": "Licencias Escolares",
+    "description": "Aplicación web para la gestión de licencias escolares.",
+    "image": "/projects/licencias.png",
+    "alt": "Foto de la app web de licencias escolares",
+    "url": "https://licencias902.vercel.app/",
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "/assets/skills/react.svg"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "/assets/skills/tailwind.svg"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "finanzas-personales",
+    "title": "Finanzas Personales",
+    "description": "Aplicación web para la gestión de finanzas personales.",
+    "image": "/projects/finanzas.png",
+    "alt": "Foto de la app web de finanzas personales",
+    "url": "https://trackerfinanzas.vercel.app/",
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "/assets/skills/react.svg"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "/assets/skills/tailwind.svg"
+      },
+      {
+        "name": "Vite",
+        "icon": "/assets/skills/vite.svg"
+      },
+      {
+        "name": "Supabase",
+        "icon": "/assets/skills/supabase.svg"
+      }
+    ],
+    "featured": true
+  }
+
+]
