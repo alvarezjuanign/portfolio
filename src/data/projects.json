@@ -2,7 +2,7 @@
   {
     "id": "arboleda",
     "title": "La Arboleda",
-    "description": "Landing page para cabañas en San Luis, implementación de viewTransitions.",
+    "description": "Landing page para cabañas en San Luis.",
     "image": "/projects/arboleda.png",
     "alt": "Foto de la landing page de cabañas La Arboleda en San Luis",
     "url": "https://laarboleda.vercel.app/",
